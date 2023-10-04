@@ -1,0 +1,81 @@
+.carContainer{
+    width: 35%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 20px;
+    margin: 13px;
+    height: 450px;
+    width: 30%;
+    padding: 5px;
+}
+.image img{
+    padding: 4px;
+    width:98%;
+    border-radius: 20px;
+}
+.content{
+    padding: 1px;
+}
+.head{
+    padding:0 5px 0 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:20px;
+}
+.head label{
+    padding: 2px;
+    border:2px dotted steelblue;
+    border-radius: 10px;
+    width: 50px;
+    text-align: center;
+}
+.feature{
+    display: flex;
+    color:#6a94d9;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #caced5;
+    margin:0 25px 0 25px;
+}
+.feature p{
+    width: 50%;
+    
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+}
+.foot div{
+    width: 40%;
+    display:inline;
+}
+.btns{
+    margin-top:10px;
+}
+.amount span{
+    font-size: 25px;
+    font-weight: 700;
+}
+.btnrent{
+    background-color: #6a94d9;
+    color: white;
+    font-family: arial;
+    font-weight: 500;
+    border: none;
+    margin-left: 5px;
+    height: 30px;
+    border-radius: 10px;
+}
+.btnlike{
+    background-color: #c7dbfa;
+    color: rgb(56, 56, 195);
+    font-family: arial;
+    font-weight: 500;
+    width:20%;
+    border: none;
+    margin-left: 5px;
+    height: 30px;
+    border-radius: 10px;
+}
